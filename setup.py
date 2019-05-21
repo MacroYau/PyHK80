@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hk80",
-    version="1.0.0",
+    version="1.0.1",
     author="Macro Yau",
     author_email="macroyau.development@gmail.com",
     description="Hong Kong 1980 Grid coordinates conversion library in Python",

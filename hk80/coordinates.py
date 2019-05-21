@@ -40,7 +40,7 @@ def convert_hk80_to_wgs84(northing, easting):
     """
     if (HK80_BOUND_N_MIN <= northing <= HK80_BOUND_N_MAX) and \
        (HK80_BOUND_E_MIN <= easting <= HK80_BOUND_E_MAX):
-        return __convert_coordinates(HK80_PROJ, WGS84_PROJ, (easting, northing))
+        return _convert_coordinates(HK80_PROJ, WGS84_PROJ, (easting, northing))
     else:
         raise ValueError("Northing or easting value is out of range")
 
