@@ -15,7 +15,7 @@ setuptools.setup(
     license="MIT",
     packages=setuptools.find_packages(),
     install_requires=[
-        "pyproj==2.1.3",
+        "pyproj",
     ],
     classifiers=[
         "Programming Language :: Python",
